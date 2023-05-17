@@ -177,7 +177,7 @@ const Home = () => {
             the majority have suffered alteration in some form
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mt-7">
           {services.map((singleServices) => (
             <div
               key={singleServices._id}

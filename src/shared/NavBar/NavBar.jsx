@@ -54,9 +54,12 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-outline border-[#FF3811] text-[#FF3811]">
+        <Link className="btn btn-outline border-[#FF3811] text-[#FF3811]">
           Appointment
-        </a>
+        </Link>
+        <Link to={"/login"}>
+          <button className="btn ml-4">Login</button>
+        </Link>
       </div>
     </div>
   );
